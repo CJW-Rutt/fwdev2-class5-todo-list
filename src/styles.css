@@ -1,0 +1,84 @@
+/* App.css */
+
+/* Style for the entire app container */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+/* Style for the Todo items */
+.todo {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+/* Style for completed tasks */
+.completed {
+  background-color: #d8ffd6; /* Light green background for completed tasks */
+}
+
+/* Style for task text */
+.task-text {
+  flex-grow: 1;
+  margin: 0 10px;
+}
+
+/* Style for the "DONE!" text */
+.completed-text {
+  flex-grow: 1;
+  margin: 0 10px;
+  font-weight: bold;
+  color: #009900; /* Green color for completed tasks */
+}
+
+/* Style for the Delete button */
+.delete-button {
+  background-color: #ff5555; /* Red background for Delete button */
+  color: #fff; /* White text color for Delete button */
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+  background-color: #ff0000; /* Darker red on hover */
+}
+
+/* Style for the TodoForm input and Add button */
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  font-size: 16px;
+  width: 250px;
+}
+
+button[type="submit"] {
+  background-color: #4caf50; /* Green Add button */
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049; /* Slightly darker green on hover */
+}
